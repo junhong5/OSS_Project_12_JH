@@ -2,7 +2,13 @@
 
 int main()
 {
+  int i=0;
+
   printf("First OSS Code\n");
-  printf("second OSS Coed\n")
+  printf("second OSS Coed\n");
+
+  for (int i = 0; i < 10; i++){
+    printf("Test 브랜치\n");
+  }
   return 0;
 }
